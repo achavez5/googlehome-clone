@@ -1,15 +1,46 @@
 html{
     background: white;
-
+    font-size: 13px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.topbar {
+    
+    display: inline-block;
+    text-decoration: none;
+    line-height: 50px;
+    width: 100%;
+
+}
+
+.topbar a{
+    color: #000;
+    opacity: 75%;
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+
+#top-right-bar {
+    float: right;
+    
+}
+
+a:active {
+    text-decoration: underline;
+    opacity
+}
+
+#top-left-bar {
+    float: left;
+}
+
+/* Container for the Google logo, search bar, Google Search button, I'm Feeling Lucky Button */ 
 .mid-page-div{
-    border: solid black;
-    border-width: 1px;
+    /* background-color: greenyellow;  /* Temp to see the divider */
     text-align: center;
 }
 
@@ -28,4 +59,18 @@ body{
     width: 584px;
     height: 44px; 
 
+}
+
+#sign-in{
+    
+    display: inline-block;
+
+}
+
+#sign-in-button{
+    background-color: rgb(66, 133, 244);
+    color:  #fff;
+    font-weight: bold;
+    padding: 7.5px 15px;
+    border: none;
 }
