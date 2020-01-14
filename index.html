@@ -4,22 +4,22 @@
     <head>
         <meta charset="utf-8"> 
         <title>Google</title>
-        <!-- Add font -->
+        <!-- Fonts handled in style.css -->
         <link href="styles/style.css" rel="stylesheet" type="text/css">
         <meta content="/images/google-icon.png" itemprop="image">
     </head>
     <body>
         
-        <!-- Top bar of the page-->
-        <div id="top-bar" class="topbar">
+        <!-- Nav bar at top of page-->
+        <nav id="top-bar" class="topbar">
             
-            <!--Container of the about and store links-->
+            <!--Container of the "About" and "Store" links-->
             <div id="top-left-bar">
                 <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
                 <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
             </div>
             
-            <!--Container of Gmail, Images, Sign In Links-->
+            <!--Container of "Gmail", "Images", "Sign In" Links-->
             <div id="top-right-bar">
                 <a href="https://mail.google.com/">Gmail</a>
                 <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
@@ -27,31 +27,46 @@
                     <input type="submit" value="Sign In" id="sign-in-button">
                 </form>
             </div>
-        </div>
-        <!-- The container for the google logo, search bar, and the two buttons -->
-        <div class="mid-page-div">
-            <img id="google-logo" src="images/google-logo.png" alt="The Google Logo: Google spelt colorfully ">
-            <form>
-                <input type="text" name="search-bar" id="search-bar">
-            </form>            
-        </div>
-
-        <div class="footer-page-div">
-            <!--Container of the about and store links-->
-            <div id="bottom-left-bar">
-                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-                <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+        </nav>
+        
+        <!--The container for the google logo, search bar, and the two buttons in middle of window-->
+        <main class="main-page-div">
+            
+            <!--Container for the Google Logo image-->
+            <div>
+                <img id="google-logo" src="images/google-logo.png" alt="The Google Logo: Google spelt colorfully ">
             </div>
             
-            <!--Container of Gmail, Images, Sign In Links-->
-            <div id="bottom-right-bar">
-                <a href="https://mail.google.com/">Gmail</a>
-                <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
-                <form action="https://accounts.google.com/" id="sign-in">
-                    <input type="submit" value="Sign In" id="sign-in-button">
-                </form>
+            <!--Container for the search bar-->
+            <div>
+                <form>
+                    <input type="text" name="search-bar" id="search-bar">
+                </form>            
+            </div>  
+
+            <!--Container for the buttons "Google Search" and "I'm Feeling Lucky"-->
+            <div id="button-cont">
+                
             </div>
-        </div>
+        </main>
+
+        <!--Container for the bottom bar-->
+        <footer id="footer-page-div" class="bottombar">
+            
+            <!--Container of the "Advertising", "Business", and "How Search Works" links-->
+            <div id="bottom-left-bar">
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">Advertising</a>
+                <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Business</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            </div>
+            
+            <!--Container of Privacy, Terms, Settings links-->
+            <div id="bottom-right-bar">
+                <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?fg=1">Terms</a>
+                <a href="https://www.google.com/preferences?hl=en">Settings</a>
+            </div>
+        </footer>
 
 
     </body>
