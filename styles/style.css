@@ -1,0 +1,31 @@
+html{
+    background: white;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid-page-div{
+    border: solid black;
+    border-width: 1px;
+    text-align: center;
+}
+
+#google-logo{
+    border: solid black;
+    border-width: 1px;
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+
+}
+
+#search-bar{
+    resize: both;
+    overflow: auto;
+    width: 584px;
+    height: 44px; 
+
+}
